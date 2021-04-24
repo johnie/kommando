@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Kommando",
+    "version": "0.0.1",
+    "description": "A tiny chrome extension to handle tabs",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "assets/images/icon-16.png",
+            "24": "assets/images/icon-24.png",
+            "32": "assets/images/icon-32.png"
+        }
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+                "default": "Ctrl+K",
+                "mac": "Command+K"
+            }
+        }
+    }
+}

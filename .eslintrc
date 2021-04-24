@@ -1,0 +1,15 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["svelte3", "prettier", "import/warnings"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "at-rule-no-unknown": null
+  },
+  "settings": {
+    "import/extensions": [".js", ".jsx", ".ts", ".tsx", ".mjs", ".svelte"]
+  },
+  "env": {
+    "browser": true,
+    "jest": true
+  }
+}
